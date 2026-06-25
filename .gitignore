@@ -12,6 +12,7 @@ episodes/*/project/
 episodes/*/renders/
 episodes/*/qa/
 episodes/*/srt_work/
+episodes/*/粗剪母版/
 *.mp4
 *.mov
 *.m4v
@@ -27,4 +28,3 @@ __pycache__/
 # local secrets
 .env
 .env.*
-

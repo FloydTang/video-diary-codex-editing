@@ -18,7 +18,7 @@ if [[ -e "$dir" ]]; then
   exit 1
 fi
 
-mkdir -p "$dir/raw" "$dir/assets" "$dir/project" "$dir/renders" "$dir/qa" "$dir/srt_work"
+mkdir -p "$dir/raw" "$dir/assets" "$dir/project" "$dir/renders" "$dir/qa" "$dir/srt_work" "$dir/粗剪母版"
 cp templates/episode/README.md "$dir/README.md"
 cp templates/episode/口播稿.md "$dir/口播稿.md"
 cp templates/episode/素材清单.md "$dir/素材清单.md"
@@ -30,5 +30,5 @@ echo
 echo "Next:"
 echo "1. Put raw talking-head video and SRT into $dir/raw"
 echo "2. Put screenshots/recordings/images into $dir/assets"
-echo "3. Ask Codex to follow AGENTS.md and edit this episode"
-
+echo "3. If the source is unclean, ask Codex to produce $dir/粗剪母版 first"
+echo "4. Ask Codex to follow AGENTS.md and edit this episode"
