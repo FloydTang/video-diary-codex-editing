@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# raw/private media
+episodes/*/raw/*
+episodes/*/assets/*
+!episodes/*/raw/.gitkeep
+!episodes/*/assets/.gitkeep
+
+# generated outputs
+episodes/*/project/
+episodes/*/renders/
+episodes/*/qa/
+episodes/*/srt_work/
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.mp3
+
+# node/python caches
+node_modules/
+__pycache__/
+.venv/
+.pytest_cache/
+
+# local secrets
+.env
+.env.*
+
